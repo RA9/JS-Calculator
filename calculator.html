@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Responsive Calculator</title>
+    <link rel="stylesheet" href="calculator.css">
+</head>
+<body>
+   <div class="container">
+       <div class="calculator">
+          <div id="viewer" class="viewer calculator__display">0</div>
+          
+          <div class="calculator__keys">
+              <button type="button" id="plus" data-ops="+" class="key--operator ops">
+                  &plus;
+               </button>
+               <button type="button" id="minus" data-ops="-" class="key--operator ops">&minus;</button>
+                <button type="button" id="multiply" data-ops="*" class="key--operator ops">&times;</button>
+                <button type="button" id="divide" data-ops="/" class="key--operator ops">&divide;</button>
+             
+                <button type="button"id="seven" data-num="7"  class="nums"  value="7">7</button>
+                <button type="button" id="eight" data-num="8" class="nums"  value="8">8</button>
+                <button type="button" id="nine" data-num="9" class="nums"  value="9">9</button>
+                  
+                  
+                 
+                 <button type="button"  id="four" data-num="4" class="nums" value="4">4</button>
+                 <button type="button" id="five" data-num="5" class="nums"  value="5">5</button>
+                 <button type="button"  id="six" data-num="6" class="nums" value="6">6</button>
+                 
+             
+                  <button type="button"  id="one" data-num="1" class="nums"  value="1">1</button>
+                   <button type="button" id="two" data-num="2" class="nums"  value="2">2</button>
+                    <button type="button" id="three" data-num="3" class="nums"  value="3">3</button>
+                    
+           
+                 <button type="button"  id="zero" data-num="0" class="nums" value="0">0</button>
+                  <button type="button"  id="decimal" data-num="." value=".">&middot;</button>
+                  <button type="button" id="clear" class="all-clear" >AC</button>
+                  <button id="equals" data-result="" class="key--equal">&equals;</button>
+                
+          </div>    
+  </div>
+  <footer align="center"> 
+    <p>Develop by: Carlos S. Nah Jr</p> 
+  </footer>
+</div>
+
+
+   <script src="calculator.js"></script>        
+</body>
+</html>
