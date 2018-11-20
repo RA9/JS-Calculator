@@ -117,5 +117,4 @@ equals.onclick = displayNum;
 clearNum.onclick = clearAll;
 
 }());
- let name = prompt("Enter your name");
-alert( `Hi ${name}, please try this web calculator and tell me what you think!!`);
+ 
